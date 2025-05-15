@@ -11,3 +11,5 @@
 \contentsline {subsection}{\numberline {1.}Load data}{6}{subsection.3.1}%
 \contentsline {subsection}{\numberline {2.}Print the titles}{6}{subsection.3.2}%
 \contentsline {subsection}{\numberline {3.}Select people}{8}{subsection.3.3}%
+\contentsline {subsection}{\numberline {4.}Find the Euclidean distance}{9}{subsection.3.4}%
+\contentsline {subsection}{\numberline {5.}Find the Pearson correlation coefficient}{10}{subsection.3.5}%

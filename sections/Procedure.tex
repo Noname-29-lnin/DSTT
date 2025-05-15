@@ -104,3 +104,125 @@ Initially, the code determines the dimensions of a matrix named "\texttt{users\_
 \end{itemize}
 
 The core of this code segment is a for loop that iterates through each user, from the first user (index 1) up to m1 (the total number of users). Inside this loop, a conditional check is performed using an if statement. This condition evaluates the product of all ratings for the current user \texttt{j} (accessed via \texttt{users\_movies\_sort(j, :)}). If this product is not equal to zero (\texttt{\textasciitilde = 0}), it implies that the user has provided a rating for every movie (assuming no rating is represented by a zero). When this condition is true, that user's entire row of ratings from \texttt{users\_movies\_sort} is appended to the ratings matrix.
+
+\begin{lstlisting}[language=MATLAB]
+	for j = 1:m1                         
+		if prod(users_movies_sort(j, :)) ~= 0  
+		ratings = [ratings; users_movies_sort(j, :)];  
+	end;
+\end{lstlisting}
+
+The whole point of this is to sort out users that rate all the film they watched and add their ratings to a set.
+
+\textbf{Question 1: What does the command \texttt{ratings=[]} do?}
+
+This initializes an empty array named ratings that ratings start with no elements. This setup is commonly used to collect or build up data in subsequent operations, specially 
+within loops. The code then iterates over \texttt{users\_movies\_sort} array and adds rows to ratings for users who have rated all the movies they watched.
+
+The below table shows a part of the result of ratings after the execution of the source code:
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.9\linewidth]{sections/pic/section3/2.png}
+\end{figure}
+
+\subsection{Find the Euclidean distance}
+
+The following code calculates the Euclidean distance:
+
+\begin{lstlisting}[style=StyleCode, language=MATLAB]
+	% Find the Euclidean distance
+	[m2, n2] = size(ratings);
+	for i = 1:m2
+		eucl(i) = norm(ratings(i,:)-trial_users);
+	end;
+\end{lstlisting}
+
+In this part, we would calculate the Euclidean distance to measure the similarity between a specific “\texttt{trial\_user}” and every other user within the ratings dataset.
+
+Where:
+
+\begin{itemize}[label=-]
+	\item \texttt{ratings(i, :)}: is the vector of movie ratings for i-th user.
+	\item \texttt{trial\_user}: is the vector of movie ratings for the trial user (the user whose similarities we want to find).
+\end{itemize}
+
+The first step in the comparison involves element-wise subtraction, \texttt{ratings(i,:) - trial\_user}.
+
+\begin{itemize}[label=-]
+	\item \texttt{ratings(i,:)-trial\_users}: computes the difference between the i-th user's ratings and the trial user's ratings for each movie. 
+\end{itemize}
+
+Subsequently, the “\texttt{norm()}” function is applied to this difference vector specifically,
+
+\begin{itemize}[label=-]
+	\item \texttt{norm(ratings(i,:)-trial\_users)}: calculates the Euclidean distance between these two vectors.
+\end{itemize}
+
+The resulting distance for each comparison is stored in “\texttt{eucl(i)}”,
+
+\begin{itemize}[label=-]
+	\item \texttt{eucl(i)}: represents the Euclidean distance between the \texttt{trial\_user} and the i-th user in the ratings array (or matrix). The smaller the value of \texttt{eucl(i)}, the more similar the i-th user's ratings are to the trial user's ratings, this means that the i-th user has comparable tastes in movies to the \texttt{trial\_user}.
+\end{itemize}
+
+Moreover, the eucl vector contains a series of Euclidean distances, each representing the similarity between a trial user and other users in a dataset. A portion of this vector is displayed in the table, showing various distance values calculated:
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{sections/pic/section3/3.png}
+\end{figure}
+
+The command “\texttt{[smallest\_number, position] = min(eucl);}” processes the eucl vector to find its minimum value and the index at which this minimum occurs. The minimum value is stored in the variable "smallest\_number", while its corresponding index (or position within the vector) is stored in the variable position. Following this computation, the code uses \texttt{disp()} commands to output these findings:
+
+\begin{lstlisting}[style=StyleCode, language=MATLAB]
+	% Find the smallest Euclidean distance
+	[smallest\_number, position] = min(eucl);
+	disp(['Smallest Eucl: ', num2str(smallest_number)]);
+	disp(['Position: ', num2str(position)]);
+\end{lstlisting}
+
+Upon running the code, the results indicate that the smallest Euclidean distance found is $5.6569$, and this value corresponds to position $14$ in the eucl vector. This means that the 14th person in the ratings data has rating patterns most closely matching the trial user, with a calculated Euclidean distance of $5.6569$, which is shown in the figure below:
+
+\begin{lstlisting}[style=StyleResult]
+	Smallest Eucl: 5.6569
+	Position: 14
+\end{lstlisting}
+
+\subsection{Find the Pearson correlation coefficient}
+
+Initially, we create a zero vector to save the coefficient. This vector will eventually store the calculated Pearson correlation coefficient for each user in the ratings matrix when compared against the \texttt{trial\_user}. Concurrently, the trial\_user's rating vector is reshaped into a column vector using \texttt{trial\_user(:);} to ensure it is correctly oriented for the subsequent matrix operations, as shown in the figure below.
+	
+	\begin{lstlisting}[style=StyleCode, language=MATLAB]
+		% Compute the Pearson correlation coefficient
+		pearson = zeros(size(ratings, 1), 1);
+		trial_user = trial_user(:);
+		
+		% Compute correlation along the ratings vectors
+		for i = 1:size(ratings, 1)
+		current_rating = ratings(i, :);
+		
+		% Compute mean
+		trial_user_mean = mean(trial_user);
+		current_ratings_mean = mean(current_rating);
+		
+		% Subtract with the mean
+		trial_user_centered = trial_user - trial_user_mean;
+		current_ratings_centered = current_rating - current_ratings_mean;
+		
+		pearson_numerator = sum(trial_user_centered .* current_ratings_centered);
+		pearson_denominator = sqrt(sum(trial_user_centered .^ 2) .* sum(current_ratings_centered .^ 2));
+		
+		if pearson_denominator == 0
+		comr = pearson_numerator / pearson_denominator;
+		else
+		comr = 0;
+		end
+		
+		pearson(i) = comr;
+		end
+		
+		% Find the highest Pearson correlation coefficient
+		[max_pearson, pearson_index] = max(pearson);
+		disp(['Highest Pearson correlation coefficient: ', num2str(max_pearson)]);
+		disp(['Position: ', num2str(pearson_index)]);
+	\end{lstlisting}

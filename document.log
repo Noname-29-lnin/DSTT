@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.10)  16 MAY 2025 09:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.10)  16 MAY 2025 10:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1155,7 +1155,7 @@ Package hyperref Info: Link coloring OFF on input line 167.
 \openout2 = `sections/bia.aux'.
 
  (sections/bia.tex
-<sections/pic/01_logobachkhoatoi.png, id=42, 471.9231pt x 478.9092pt>
+<sections/pic/01_logobachkhoatoi.png, id=50, 471.9231pt x 478.9092pt>
 File: sections/pic/01_logobachkhoatoi.png Graphic file (type png)
 <use sections/pic/01_logobachkhoatoi.png>
 Package pdftex.def Info: sections/pic/01_logobachkhoatoi.png  used on input lin
@@ -1174,7 +1174,7 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 30.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
-<sections/pic/bia.jpg, id=44, 301.125pt x 414.95026pt>
+<sections/pic/bia.jpg, id=52, 301.125pt x 414.95026pt>
 File: sections/pic/bia.jpg Graphic file (type jpg)
 <use sections/pic/bia.jpg>
 Package pdftex.def Info: sections/pic/bia.jpg  used on input line 49.
@@ -1238,7 +1238,7 @@ Overfull \hbox (4.95854pt too wide) detected at line 10
 
  (sections/Introduction.tex)
 
-<sections/pic/bk_name_en.png, id=70, 923.8515pt x 129.8451pt>
+<sections/pic/bk_name_en.png, id=80, 923.8515pt x 129.8451pt>
 File: sections/pic/bk_name_en.png Graphic file (type png)
 <use sections/pic/bk_name_en.png>
 Package pdftex.def Info: sections/pic/bk_name_en.png  used on input line 172.
@@ -1295,7 +1295,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 LaTeX Font Warning: Font shape `OT1/cmtt/m/n' in size <13> not available
 (Font)              size <12> substituted on input line 6.
 
-<sections/pic/section3/1.png, id=90, 389.95688pt x 269.50688pt>
+<sections/pic/section3/1.png, id=100, 389.95688pt x 269.50688pt>
 File: sections/pic/section3/1.png Graphic file (type png)
 <use sections/pic/section3/1.png>
 Package pdftex.def Info: sections/pic/section3/1.png  used on input line 16.
@@ -1355,7 +1355,64 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-19.54103pt}.
 
-[7])
+[7]
+
+File: sections/pic/bk_name_en.png Graphic file (type png)
+<use sections/pic/bk_name_en.png>
+Package pdftex.def Info: sections/pic/bk_name_en.png  used on input line 122.
+(pdftex.def)             Requested size: 193.47578pt x 27.191pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 31.54103pt, for example:
+(fancyhdr)                \setlength{\headheight}{31.54103pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-19.54103pt}.
+
+[8]
+<sections/pic/section3/2.png, id=172, 1010.27437pt x 438.8897pt>
+File: sections/pic/section3/2.png Graphic file (type png)
+<use sections/pic/section3/2.png>
+Package pdftex.def Info: sections/pic/section3/2.png  used on input line 126.
+(pdftex.def)             Requested size: 435.32422pt x 189.114pt.
+
+Overfull \hbox (28.79149pt too wide) in paragraph at lines 150--151
+[]\OT1/cmr/m/n/12 The first step in the com-par-i-son in-volves element-wise su
+b-trac-tion, \OT1/cmtt/m/n/12 ratings(i,:) - trial[]user\OT1/cmr/m/n/12 . 
+ []
+
+
+
+File: sections/pic/bk_name_en.png Graphic file (type png)
+<use sections/pic/bk_name_en.png>
+Package pdftex.def Info: sections/pic/bk_name_en.png  used on input line 166.
+(pdftex.def)             Requested size: 193.47578pt x 27.191pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 31.54103pt, for example:
+(fancyhdr)                \setlength{\headheight}{31.54103pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-19.54103pt}.
+
+[9 <./sections/pic/section3/2.png>]
+<sections/pic/section3/3.png, id=184, 1121.69063pt x 124.21407pt>
+File: sections/pic/section3/3.png Graphic file (type png)
+<use sections/pic/section3/3.png>
+Package pdftex.def Info: sections/pic/section3/3.png  used on input line 172.
+(pdftex.def)             Requested size: 483.69687pt x 53.56262pt.
+
+
+File: sections/pic/bk_name_en.png Graphic file (type png)
+<use sections/pic/bk_name_en.png>
+Package pdftex.def Info: sections/pic/bk_name_en.png  used on input line 205.
+(pdftex.def)             Requested size: 193.47578pt x 27.191pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 31.54103pt, for example:
+(fancyhdr)                \setlength{\headheight}{31.54103pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-19.54103pt}.
+
+[10 <./sections/pic/section3/3.png>])
 
 File: sections/pic/bk_name_en.png Graphic file (type png)
 <use sections/pic/bk_name_en.png>
@@ -1368,7 +1425,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-19.54103pt}.
 
-[8] (document.bbl
+[11] (document.bbl
 
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
@@ -1385,7 +1442,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-19.54103pt}.
 
-[9
+[12
 
 
 ] (document.aux (sections/bia.aux) (sections/Introduction.aux)
@@ -1403,16 +1460,16 @@ LaTeX Font Warning: Size substitutions with differences
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `document.out' has not changed.
-(rerunfilecheck)             Checksum: 0F5515CEA3F202D6EFD8023AD2FD773E;1100.
+(rerunfilecheck)             Checksum: 47EFC70F6B4BCF84EA8D2926AB83B2C0;1572.
  ) 
 Here is how much of TeX's memory you used:
- 26086 strings out of 473530
- 473662 string characters out of 5714794
- 1025879 words of memory out of 5000000
- 48761 multiletter control sequences out of 15000+600000
+ 26196 strings out of 473530
+ 475517 string characters out of 5714794
+ 1030884 words of memory out of 5000000
+ 48813 multiletter control sequences out of 15000+600000
  576414 words of font info for 80 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,16n,101p,1190b,2068s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,16n,101p,1190b,2127s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmbx12.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmex10.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/p
@@ -1430,9 +1487,9 @@ vnr/vnbx12.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/
 vnr/vnbx8.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/v
 nr/vnr12.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vn
 r/vnr17.pfb>
-Output written on document.pdf (9 pages, 449896 bytes).
+Output written on document.pdf (12 pages, 597283 bytes).
 PDF statistics:
- 240 PDF objects out of 1000 (max. 8388607)
- 68 named destinations out of 1000 (max. 500000)
- 105 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 330 PDF objects out of 1000 (max. 8388607)
+ 126 named destinations out of 1000 (max. 500000)
+ 131 words of extra memory for PDF output out of 10000 (max. 10000000)
 
