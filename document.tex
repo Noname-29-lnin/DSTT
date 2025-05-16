@@ -1,0 +1,177 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english, vietnamese]{babel}
+%\usepackage[utf8]{vietnam}
+\usepackage[margin = 2cm]{geometry}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{amsmath}
+\usepackage{xcolor}
+\usepackage{nameref}
+\usepackage{babel}
+\usepackage{hyperref}
+\usepackage[pages=some]{background}
+%\usepackage{graphics}
+\usepackage{float}
+\usepackage{enumerate}
+\usepackage[]{enumitem}
+\usepackage{indentfirst}
+\setlength{\parindent}{0.5cm}
+
+\usepackage{multicol}
+\usepackage{multirow}
+% Set 1.5line spacing for the whole document
+\usepackage{setspace}
+\usepackage{array}
+\onehalfspacing
+
+% Cấu hình header và footer
+\usepackage[]{fancyhdr}
+\usepackage{titlesec}   % Để tạo sectioning tùy chỉnh
+%\usepackage{chngcntr}   % Để reset counter
+%\usepackage{tocloft}
+\fancyhf{}
+\renewcommand{\thesection}{\Roman{section}. }
+\renewcommand{\thesubsection}{\arabic{subsection}.}
+%\renewcommand{\thesubsubsection}{\arabic{section}.\arabic{subsection}.\arabic{subsubsection}.}
+
+%\usepackage[backend=biber, style=ieee]{biblatex}
+%\usepackage[style=ieee]{biblatex}
+%\addbibresource{ref.bib} % Đường dẫn đúng đến tệp .bib
+
+%% Định nghĩa counter trước
+%\newcounter{subsubsubsection}[subsubsection]
+%\renewcommand{\thesubsubsubsection}{\alph{subsubsubsection})}
+%
+%% Định nghĩa lệnh subsubsubsection
+%\titleclass{\subsubsubsection}{straight}[\subsubsection]
+%\titleformat{\subsubsubsection}[runin]
+%{\normalfont\bfseries}
+%{\thesubsubsubsection\ }
+%{0pt}
+%{}
+%\titlespacing*{\subsubsubsection}{0pt}{3.25ex plus 1ex minus .2ex}{0.5em}
+%
+%% Thiết lập counter
+%\counterwithin*{subsubsubsection}{subsubsection}
+
+% Định nghĩa mục lục (sửa lỗi command đã tồn tại)
+%\makeatletter
+%\newcommand{\l@subsubsubsectioncustom}{\@dottedtocline{4}{4em}{2.3em}}
+%\newcommand{\subsubsubsectionmark}[1]{
+	%	\addcontentsline{toc}{subsubsubsection}{\protect\numberline{\thesubsubsubsection}#1}
+	%}
+%\makeatother
+
+% Cấu hình mục lục
+%\renewcommand{\cftsecnumwidth}{6em} % Độ rộng cho "Chương X."
+%\renewcommand{\cftsubsecnumwidth}{4em} % Cho "X.Y."
+%\setlength{\cftsubsecindent}{2em} % Thụt lề subsection
+
+%\fancyhead[R]{\texttt{GVHD: Nguyễn Trung Hiếu}}
+%\fancyhead[R]{\thesection \leftmark}
+\fancyhead[L]{\includegraphics[width=0.4\linewidth]{sections/pic/bk_name_en.png}}
+
+%\fancyfoot[L]{
+	%%	\includegraphics[height=12pt]{sections/pic/logo_DEE.png} \hspace{4pt}
+	%%	\textbf{Department of Electronics}%\\
+	%%%	\textit{EE3117/EE4451 – Digital IC Design Laboratory}
+	%	\texttt{SVTH: Nguyễn Đại Đồng - 2210780}
+	%}
+\fancyfoot[R]{Page|\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+
+% Cấu hình background
+\backgroundsetup{
+	scale=1,
+	color=black, 
+	opacity=0.4,
+	angle=0,
+	contents={
+		\includegraphics[width=\paperwidth, height=\paperheight]{sections/pic/bia.jpg}
+	}
+}
+
+\usepackage{listings}
+
+% Cấu hình màu sắc cho code
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+% Định nghĩa style cho code
+\lstdefinestyle{StyleCode}{
+	backgroundcolor=\color{white},  % Màu nền trắng
+	commentstyle=\color{codegreen},
+	keywordstyle=\color{magenta},
+	numberstyle=\tiny\color{codegray},
+	stringstyle=\color{codepurple},
+	basicstyle=\ttfamily\footnotesize,
+	breakatwhitespace=false,
+	breaklines=true,
+	captionpos=b,
+	keepspaces=true,
+	numbers=left,
+	numbersep=9pt,
+	showspaces=false,
+	showstringspaces=false,
+	showtabs=false,
+	tabsize=3,
+	frame=single,                  % Khung đơn bao quanh code
+	rulecolor=\color{black},       % Màu khung (đen)
+	framexleftmargin=5pt,          % Khoảng cách lề trái khung
+	framexrightmargin=5pt,         % Khoảng cách lề phải khung
+	framextopmargin=3pt,           % Khoảng cách lề trên khung
+	framexbottommargin=3pt         % Khoảng cách lề dưới khung
+}
+% Định nghĩa ngôn ngữ cho MATLAB
+\lstdefinelanguage{MATLAB}{
+	keywords={break, case, catch, classdef, continue, else, elseif, end, for, function, global, if, otherwise, parfor, persistent, return, spmd, switch, try, while},
+	morekeywords=[2]{abs, acos, asin, atan, ceil, cos, exp, false, floor, log, log10, max, min, mod, pi, sin, sqrt, tan, true},
+	sensitive=true,
+	comment=[l]{\%},
+	morecomment=[s]{\%\{}{\%\}},
+	morestring=[b]',
+	morestring=[b]"
+}
+
+% Định nghĩa style cho result
+\lstdefinestyle{StyleResult}{
+	backgroundcolor=\color{backcolour},
+	commentstyle=\color{codegreen},
+	keywordstyle=\color{magenta},
+	numberstyle=\tiny\color{codegray},
+	stringstyle=\color{codepurple},
+	basicstyle=\ttfamily\footnotesize,
+	breakatwhitespace=false,
+	breaklines=true,
+	captionpos=b,
+	keepspaces=true,
+	numbers=none,
+	numbersep=5pt,
+	showspaces=false,
+	showstringspaces=false,
+	showtabs=false,
+	tabsize=2,
+	language=Result
+}
+% Định nghĩa cho thêm result
+\lstdefinelanguage{Result}{
+	keywords={PASS, FAIL, Time},
+	sensitive=true
+}
+
+\begin{document}
+	\pagestyle{empty}
+	\include{sections/bia.tex}
+	\pagestyle{fancy}
+	\selectlanguage{english}
+	\include{sections/Introduction.tex}
+	\include{sections/Theory.tex}
+	\include{sections/Procedure.tex}
+	\bibliographystyle{ieeetr} % IEEE style
+	\bibliography{ref} % Without .bib extension
+\end{document}

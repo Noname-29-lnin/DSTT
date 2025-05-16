@@ -1,0 +1,13 @@
+\babel@toc {vietnamese}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {vietnamese}{}\relax 
+\contentsline {section}{\numberline {I. }INTRODUCTION}{3}{section.1}%
+\babel@toc {english}{}\relax 
+\contentsline {section}{\numberline {II. }THEORY}{4}{section.2}%
+\contentsline {subsection}{\numberline {1.}Norm}{4}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.}Angle Between Vectors}{4}{subsection.2.2}%
+\contentsline {subsection}{\numberline {3.}Pearson Correlation Coefficient}{5}{subsection.2.3}%
+\contentsline {section}{\numberline {III. }PROCEDURE}{6}{section.3}%
+\contentsline {subsection}{\numberline {1.}Load data}{6}{subsection.3.1}%
+\contentsline {subsection}{\numberline {2.}Print the titles}{6}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.}Select people}{8}{subsection.3.3}%

@@ -1,0 +1,52 @@
+\fontsize{13}{14}\selectfont
+\section{THEORY}
+
+\subsection{Norm}
+
+\textbf{Concept:} A norm is a measure of a vector's "magnitude" that always returns a non-negative value. The zero vector has a norm of 0. Norms are widely used in data analysis and optimization.
+
+\textbf{Types of Norms:}
+
+\begin{itemize}[label=-]
+	\item \textbf{Euclidean Norm ($L_{2}$):} Measures geometric distance between points in space:
+	\[ ||x||_{2} = \sqrt{x_{1}^{2} + x_{2}^{2} + \dots+ x_{n}^{2} } \]
+	\item \textbf{Manhattan Norm ($L_{1}$):} Sum of absolute values, useful for optimization:
+	\[ ||x||_{1} = \sum_{i=1}^{n}|x_{i}|\]
+	\item \textbf{Maximum Norm ($L\infty$):} The largest absolute component value:
+	\[ ||x||_{\infty} = \max\limits_{1 \leq i\leq n} |x_{i}| \]
+	\item \textbf{p-Norm:} Generalization of norms with parameter p:
+	\[ ||x||_{p} = \left( \sum_{i = 1}^{n}|x_{i}|^{p} \right)^{1/p} (p \geq 1) \]
+\end{itemize}
+
+\subsection{Angle Between Vectors}
+
+\textbf{Purpose:} The angle between two vectors indicates their similarity:
+
+\begin{itemize}[label=-]
+	\item Small angle $\rightarrow$ similar direction.
+	\item Large angle $\rightarrow$ different direction.
+\end{itemize}
+
+\textbf{Formulas:} 
+
+\begin{itemize}[label=-]
+	\item Dot Product: 
+	\[ u \cdot v = \sum_{i = 1}^{n} u_{i} v_{i} \]
+	\item Vector Norm:
+	\[ ||u|| = \sqrt{u_{1}^{2} + u_{2}^{2} + \dots + u_{n}^{2} }\]
+	\item Angle Calculation: 
+	\[ \cos \phi = \dfrac{u \cdot v}{\|u\| \|v\|} \]
+\end{itemize} 
+
+\subsection{Pearson Correlation Coefficient}
+
+\textbf{Interpretation:} Measures linear correlation between datasets (-1 to 1):
+
+\begin{itemize}[label=-]
+	\item \textbf{$-1$:} Perfect negative correlation.
+	\item \textbf{$0$:} No correlation.
+	\item \textbf{$1$:} Perfect positive correlation.
+\end{itemize}
+
+\textbf{Formula:}
+\[ r = \dfrac{\sum (x_{i} - \bar{x})(y_{i} - \bar{y})}{\sqrt{\sum (x_{i} - \bar{x})^{2} \sum (y_{i} - \bar{y})^{2}}} \]
