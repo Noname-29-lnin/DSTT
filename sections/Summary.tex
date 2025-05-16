@@ -1,0 +1,18 @@
+\fontsize{13}{14}\selectfont
+\section{SUMMARY AND CONCLUSION}
+
+In this project, we used linear algebra techniques to build a basic movie recommendation system based on the MovieLens dataset. The dataset included a matrix of user ratings, movie titles, and a "\texttt{trial\_user}" who rated the 20 most popular movies.
+
+We first filtered users who had rated all 20 popular movies by using “rating” array, then selecting users who gave non-zero ratings to all movies and calculated the similarity between each user and the trial user using two different approaches: Euclidean distance and Pearson correlation coefficient. The Euclidean method identified the user with the most similar rating magnitudes, while the Pearson method found the user whose rating pattern most closely matched the trial user's preferences.
+
+In the Euclidean distance between the "\texttt{trial\_user}" and these users was calculated. User 14 had the closest ratings based on this method. Next, the Pearson correlation coefficient was calculated to measure how similar the rating patterns were between the "\texttt{trial\_user}" and others. User 88 had the closest match using this method.
+
+Since the results were different, it showed that while user 14 had similar rating magnitudes (Euclidean), user 88 had more similar preferences (Pearson). Based on these closest users, two sets of movie recommendations were made, along with a list of movies already liked by the "\texttt{trial\_user}."
+
+The results showed that the two approaches selected different users as the most similar, emphasizing how each metric captures a different aspect of similarity: Euclidean distance reflects the absolute differences in rating values, whereas Pearson correlation considers the overall trend or pattern in preferences.
+
+Based on the closest users found by each method, we generated two sets of movie recommendations. Additionally, we created a personalized rating vector ("Myratings") to simulate a new user and repeated the recommendation process.
+
+In the end, three lists were provided: movies liked by the user, recommendation based on Euclidean distance and recommendation beased on Pearson correlation.
+
+In conclusion, this project demonstrates the importance of choosing an appropriate similarity metric in recommendation systems. While Euclidean distance may be suitable when matching the intensity of preferences, Pearson correlation is more effective for identifying users with similar taste trends. Selecting the right method depends on the recommendation goal—whether to match how much users like something or how similarly they rate different items.

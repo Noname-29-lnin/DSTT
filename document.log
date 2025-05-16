@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.10)  16 MAY 2025 10:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.10)  16 MAY 2025 08:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1022,18 +1022,55 @@ Package: titlesec 2025/01/04 v2.17 Sectioning titles
 \titlewidthlast=\dimen288
 \titlewidthfirst=\dimen289
 )
+(C:\Users\nguye\AppData\Local\Programs\MiKTeX\tex/latex/tocloft\tocloft.sty
+Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
+Package tocloft Info: The document has section divisions on input line 51.
+\cftparskip=\skip81
+\cftbeforetoctitleskip=\skip82
+\cftaftertoctitleskip=\skip83
+\cftbeforepartskip=\skip84
+\cftpartnumwidth=\skip85
+\cftpartindent=\skip86
+\cftbeforesecskip=\skip87
+\cftsecindent=\skip88
+\cftsecnumwidth=\skip89
+\cftbeforesubsecskip=\skip90
+\cftsubsecindent=\skip91
+\cftsubsecnumwidth=\skip92
+\cftbeforesubsubsecskip=\skip93
+\cftsubsubsecindent=\skip94
+\cftsubsubsecnumwidth=\skip95
+\cftbeforeparaskip=\skip96
+\cftparaindent=\skip97
+\cftparanumwidth=\skip98
+\cftbeforesubparaskip=\skip99
+\cftsubparaindent=\skip100
+\cftsubparanumwidth=\skip101
+\cftbeforeloftitleskip=\skip102
+\cftafterloftitleskip=\skip103
+\cftbeforefigskip=\skip104
+\cftfigindent=\skip105
+\cftfignumwidth=\skip106
+\c@lofdepth=\count335
+\c@lotdepth=\count336
+\cftbeforelottitleskip=\skip107
+\cftafterlottitleskip=\skip108
+\cftbeforetabskip=\skip109
+\cfttabindent=\skip110
+\cfttabnumwidth=\skip111
+)
 (C:\Users\nguye\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
-\lst@mode=\count335
+\lst@mode=\count337
 \lst@gtempboxa=\box119
 \lst@token=\toks55
-\lst@length=\count336
+\lst@length=\count338
 \lst@currlwidth=\dimen290
-\lst@column=\count337
-\lst@pos=\count338
+\lst@column=\count339
+\lst@pos=\count340
 \lst@lostspace=\dimen291
 \lst@width=\dimen292
-\lst@newlines=\count339
-\lst@lineno=\count340
+\lst@newlines=\count341
+\lst@lineno=\count342
 \lst@maxwidth=\dimen293
 
 (C:\Users\nguye\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstpatch.sty
@@ -1041,8 +1078,8 @@ File: lstpatch.sty 2024/09/23 1.10c (Carsten Heinz)
 )
 (C:\Users\nguye\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
-\c@lstnumber=\count341
-\lst@skipnumbers=\count342
+\c@lstnumber=\count343
+\lst@skipnumbers=\count344
 \lst@framebox=\box120
 )
 (C:\Users\nguye\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
@@ -1053,7 +1090,7 @@ Package: listings 2024/09/23 1.10c (Carsten Heinz)
 (C:\Users\nguye\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
 tex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count343
+\l__color_backend_stack_int=\count345
 \l__pdf_internal_box=\box121
 ) (document.aux (sections/bia.aux
 LaTeX Font Info:    Trying to load font information for T5+cmr on input line 3.
@@ -1062,29 +1099,30 @@ LaTeX Font Info:    Trying to load font information for T5+cmr on input line 3.
 (C:\Users\nguye\AppData\Local\Programs\MiKTeX\tex/latex/vntex\t5cmr.fd
 File: t5cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 ))
-(sections/Introduction.aux) (sections/Theory.aux) (sections/Procedure.aux))
+(sections/Introduction.aux) (sections/Theory.aux) (sections/Procedure.aux)
+(sections/Summary.aux) (sections/reference.aux))
 \openout1 = `document.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 167.
-LaTeX Font Info:    ... okay on input line 167.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 167.
-LaTeX Font Info:    ... okay on input line 167.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 167.
-LaTeX Font Info:    ... okay on input line 167.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 167.
-LaTeX Font Info:    ... okay on input line 167.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 167.
-LaTeX Font Info:    ... okay on input line 167.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 167.
-LaTeX Font Info:    ... okay on input line 167.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 167.
-LaTeX Font Info:    ... okay on input line 167.
-LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 167.
-LaTeX Font Info:    ... okay on input line 167.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 167.
-LaTeX Font Info:    ... okay on input line 167.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 167.
-LaTeX Font Info:    ... okay on input line 167.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 168.
+LaTeX Font Info:    ... okay on input line 168.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 168.
+LaTeX Font Info:    ... okay on input line 168.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 168.
+LaTeX Font Info:    ... okay on input line 168.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 168.
+LaTeX Font Info:    ... okay on input line 168.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 168.
+LaTeX Font Info:    ... okay on input line 168.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 168.
+LaTeX Font Info:    ... okay on input line 168.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 168.
+LaTeX Font Info:    ... okay on input line 168.
+LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 168.
+LaTeX Font Info:    ... okay on input line 168.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 168.
+LaTeX Font Info:    ... okay on input line 168.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 168.
+LaTeX Font Info:    ... okay on input line 168.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1124,16 +1162,16 @@ LaTeX Font Info:    ... okay on input line 167.
 (C:\Users\nguye\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count344
+\scratchcounter=\count346
 \scratchdimen=\dimen294
 \scratchbox=\box122
-\nofMPsegments=\count345
-\nofMParguments=\count346
+\nofMPsegments=\count347
+\nofMParguments=\count348
 \everyMPshowfont=\toks56
-\MPscratchCnt=\count347
+\MPscratchCnt=\count349
 \MPscratchDim=\dimen295
-\MPnumerator=\count348
-\makeMPintoPDFobject=\count349
+\MPnumerator=\count350
+\makeMPintoPDFobject=\count351
 \everyMPtoPDFconversion=\toks57
 )
 (C:\Users\nguye\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
@@ -1146,16 +1184,16 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 167.
+Package hyperref Info: Link coloring OFF on input line 168.
  (document.out) (document.out)
 \@outlinefile=\write4
 \openout4 = `document.out'.
 
-\c@lstlisting=\count350
+\c@lstlisting=\count352
 \openout2 = `sections/bia.aux'.
 
  (sections/bia.tex
-<sections/pic/01_logobachkhoatoi.png, id=50, 471.9231pt x 478.9092pt>
+<sections/pic/01_logobachkhoatoi.png, id=90, 471.9231pt x 478.9092pt>
 File: sections/pic/01_logobachkhoatoi.png Graphic file (type png)
 <use sections/pic/01_logobachkhoatoi.png>
 Package pdftex.def Info: sections/pic/01_logobachkhoatoi.png  used on input lin
@@ -1174,12 +1212,12 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 30.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
-<sections/pic/bia.jpg, id=52, 301.125pt x 414.95026pt>
+<sections/pic/bia.jpg, id=92, 301.125pt x 414.95026pt>
 File: sections/pic/bia.jpg Graphic file (type jpg)
 <use sections/pic/bia.jpg>
 Package pdftex.def Info: sections/pic/bia.jpg  used on input line 49.
 (pdftex.def)             Requested size: 597.62614pt x 845.06903pt.
-[1
+[-1
 
 
 {C:/Users/nguye/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./sections/p
@@ -1189,59 +1227,47 @@ LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <13> not available
 (Font)              size <12> substituted on input line 51.
 
 (document.toc
+LaTeX Font Info:    Calculating math sizes for size <13> on input line 4.
 
-LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <13> not available
-(Font)              size <12> substituted on input line 6.
-
-LaTeX Font Info:    Calculating math sizes for size <13> on input line 7.
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <6.5> not available
-(Font)              size <6> substituted on input line 7.
+(Font)              size <6> substituted on input line 4.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <13> not available
-(Font)              size <12> substituted on input line 7.
+(Font)              size <12> substituted on input line 4.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <6.5> not available
-(Font)              size <6> substituted on input line 7.
+(Font)              size <6> substituted on input line 4.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <13> not available
-(Font)              size <12> substituted on input line 7.
+(Font)              size <12> substituted on input line 4.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <6.5> not available
-(Font)              size <6> substituted on input line 7.
+(Font)              size <6> substituted on input line 4.
 
 
-Overfull \hbox (4.95854pt too wide) detected at line 10
-\OT1/cmr/bx/n/12 III.  
- []
+LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <13> not available
+(Font)              size <12> substituted on input line 6.
 
 )
 \tf@toc=\write5
 \openout5 = `document.toc'.
 
- (document.lof)
-\tf@lof=\write6
-\openout6 = `document.lof'.
-
- (document.lot)
-\tf@lot=\write7
-\openout7 = `document.lot'.
-
 )
 
-[2]
+[0]
 \openout2 = `sections/Introduction.aux'.
 
  (sections/Introduction.tex)
 
-<sections/pic/bk_name_en.png, id=80, 923.8515pt x 129.8451pt>
+<sections/pic/bk_name_en.png, id=129, 923.8515pt x 129.8451pt>
 File: sections/pic/bk_name_en.png Graphic file (type png)
 <use sections/pic/bk_name_en.png>
-Package pdftex.def Info: sections/pic/bk_name_en.png  used on input line 172.
+Package pdftex.def Info: sections/pic/bk_name_en.png  used on input line 173.
 (pdftex.def)             Requested size: 193.47578pt x 27.191pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1250,7 +1276,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-19.54103pt}.
 
-[3
+[1
 
 
 
@@ -1270,7 +1296,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-19.54103pt}.
 
-[4
+[2
 
 
 
@@ -1278,7 +1304,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 File: sections/pic/bk_name_en.png Graphic file (type png)
 <use sections/pic/bk_name_en.png>
-Package pdftex.def Info: sections/pic/bk_name_en.png  used on input line 173.
+Package pdftex.def Info: sections/pic/bk_name_en.png  used on input line 174.
 (pdftex.def)             Requested size: 193.47578pt x 27.191pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1287,7 +1313,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-19.54103pt}.
 
-[5]
+[3]
 \openout2 = `sections/Procedure.aux'.
 
  (sections/Procedure.tex
@@ -1295,7 +1321,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 LaTeX Font Warning: Font shape `OT1/cmtt/m/n' in size <13> not available
 (Font)              size <12> substituted on input line 6.
 
-<sections/pic/section3/1.png, id=100, 389.95688pt x 269.50688pt>
+<sections/pic/section3/1.png, id=149, 389.95688pt x 269.50688pt>
 File: sections/pic/section3/1.png Graphic file (type png)
 <use sections/pic/section3/1.png>
 Package pdftex.def Info: sections/pic/section3/1.png  used on input line 16.
@@ -1313,7 +1339,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-19.54103pt}.
 
-[6
+[4
 
 
 
@@ -1355,7 +1381,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-19.54103pt}.
 
-[7]
+[5]
 
 File: sections/pic/bk_name_en.png Graphic file (type png)
 <use sections/pic/bk_name_en.png>
@@ -1368,8 +1394,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-19.54103pt}.
 
-[8]
-<sections/pic/section3/2.png, id=172, 1010.27437pt x 438.8897pt>
+[6]
+<sections/pic/section3/2.png, id=221, 1010.27437pt x 438.8897pt>
 File: sections/pic/section3/2.png Graphic file (type png)
 <use sections/pic/section3/2.png>
 Package pdftex.def Info: sections/pic/section3/2.png  used on input line 126.
@@ -1393,8 +1419,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-19.54103pt}.
 
-[9 <./sections/pic/section3/2.png>]
-<sections/pic/section3/3.png, id=184, 1121.69063pt x 124.21407pt>
+[7 <./sections/pic/section3/2.png>]
+<sections/pic/section3/3.png, id=233, 1121.69063pt x 124.21407pt>
 File: sections/pic/section3/3.png Graphic file (type png)
 <use sections/pic/section3/3.png>
 Package pdftex.def Info: sections/pic/section3/3.png  used on input line 172.
@@ -1412,11 +1438,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-19.54103pt}.
 
-[10 <./sections/pic/section3/3.png>])
+[8 <./sections/pic/section3/3.png>]
 
 File: sections/pic/bk_name_en.png Graphic file (type png)
 <use sections/pic/bk_name_en.png>
-Package pdftex.def Info: sections/pic/bk_name_en.png  used on input line 174.
+Package pdftex.def Info: sections/pic/bk_name_en.png  used on input line 245.
 (pdftex.def)             Requested size: 193.47578pt x 27.191pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1425,9 +1451,240 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-19.54103pt}.
 
-[11] (document.bbl
+[9]
+Overfull \hbox (21.32574pt too wide) in paragraph at lines 269--271
+[]\OT1/cmr/m/n/12 `\OT1/cmtt/m/n/12 trial[]user[]mean\OT1/cmr/m/n/12 ' cal-cu-l
+ates the \OT1/cmtt/m/n/12 mean \OT1/cmr/m/n/12 (av-er-age) rat-ing of the trial
+ user. `\OT1/cmtt/m/n/12 current[]ratings[]mean\OT1/cmr/m/n/12 '
+ []
 
-LaTeX Warning: Empty `thebibliography' environment on input line 3.
+
+
+File: sections/pic/bk_name_en.png Graphic file (type png)
+<use sections/pic/bk_name_en.png>
+Package pdftex.def Info: sections/pic/bk_name_en.png  used on input line 296.
+(pdftex.def)             Requested size: 193.47578pt x 27.191pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 31.54103pt, for example:
+(fancyhdr)                \setlength{\headheight}{31.54103pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-19.54103pt}.
+
+[10]
+
+File: sections/pic/bk_name_en.png Graphic file (type png)
+<use sections/pic/bk_name_en.png>
+Package pdftex.def Info: sections/pic/bk_name_en.png  used on input line 343.
+(pdftex.def)             Requested size: 193.47578pt x 27.191pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 31.54103pt, for example:
+(fancyhdr)                \setlength{\headheight}{31.54103pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-19.54103pt}.
+
+[11]
+Overfull \hbox (0.74301pt too wide) in paragraph at lines 351--353
+[]\OT1/cmtt/m/n/12 [max[]pearson, pearson[]index] = max(pearson);\OT1/cmr/m/n/1
+2 : This func-tion lo-cates both the max-
+ []
+
+
+Overfull \hbox (7.07405pt too wide) in paragraph at lines 353--354
+[]\OT1/cmtt/m/n/12 disp(['Highest Pearson correlation coefficient: ', num2str(m
+ax[]pearson)]);
+ []
+
+
+Overfull \hbox (1.83188pt too wide) in paragraph at lines 353--354
+\OT1/cmr/m/n/12 and \OT1/cmtt/m/n/12 disp(['Position: ', num2str(pearson[]index
+)]);\OT1/cmr/m/n/12 : These com-mands dis-play the
+ []
+
+
+Overfull \hbox (8.5258pt too wide) in paragraph at lines 353--354
+\OT1/cmr/m/n/12 high-est cal-cu-lated cor-re-la-tion co-ef-fi-cient and the po-
+si-tion of the most sim-i-lar user. `\OT1/cmtt/m/n/12 num2str\OT1/cmr/m/n/12 '
+ []
+
+
+
+File: sections/pic/bk_name_en.png Graphic file (type png)
+<use sections/pic/bk_name_en.png>
+Package pdftex.def Info: sections/pic/bk_name_en.png  used on input line 382.
+(pdftex.def)             Requested size: 193.47578pt x 27.191pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 31.54103pt, for example:
+(fancyhdr)                \setlength{\headheight}{31.54103pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-19.54103pt}.
+
+[12]
+Overfull \hbox (25.55196pt too wide) in paragraph at lines 414--415
+[]\OT1/cmr/m/n/12 So, we can an-swer the ques-tion. No, the vari-ables \OT1/cmt
+t/m/n/12 closest[]user[]Pearson \OT1/cmr/m/n/12 and \OT1/cmtt/m/n/12 closest[]u
+ser[]Dist
+ []
+
+
+
+File: sections/pic/bk_name_en.png Graphic file (type png)
+<use sections/pic/bk_name_en.png>
+Package pdftex.def Info: sections/pic/bk_name_en.png  used on input line 419.
+(pdftex.def)             Requested size: 193.47578pt x 27.191pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 31.54103pt, for example:
+(fancyhdr)                \setlength{\headheight}{31.54103pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-19.54103pt}.
+
+[13]
+
+File: sections/pic/bk_name_en.png Graphic file (type png)
+<use sections/pic/bk_name_en.png>
+Package pdftex.def Info: sections/pic/bk_name_en.png  used on input line 465.
+(pdftex.def)             Requested size: 193.47578pt x 27.191pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 31.54103pt, for example:
+(fancyhdr)                \setlength{\headheight}{31.54103pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-19.54103pt}.
+
+[14]
+
+File: sections/pic/bk_name_en.png Graphic file (type png)
+<use sections/pic/bk_name_en.png>
+Package pdftex.def Info: sections/pic/bk_name_en.png  used on input line 517.
+(pdftex.def)             Requested size: 193.47578pt x 27.191pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 31.54103pt, for example:
+(fancyhdr)                \setlength{\headheight}{31.54103pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-19.54103pt}.
+
+[15]
+
+File: sections/pic/bk_name_en.png Graphic file (type png)
+<use sections/pic/bk_name_en.png>
+Package pdftex.def Info: sections/pic/bk_name_en.png  used on input line 564.
+(pdftex.def)             Requested size: 193.47578pt x 27.191pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 31.54103pt, for example:
+(fancyhdr)                \setlength{\headheight}{31.54103pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-19.54103pt}.
+
+[16]
+
+File: sections/pic/bk_name_en.png Graphic file (type png)
+<use sections/pic/bk_name_en.png>
+Package pdftex.def Info: sections/pic/bk_name_en.png  used on input line 612.
+(pdftex.def)             Requested size: 193.47578pt x 27.191pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 31.54103pt, for example:
+(fancyhdr)                \setlength{\headheight}{31.54103pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-19.54103pt}.
+
+[17]
+
+File: sections/pic/bk_name_en.png Graphic file (type png)
+<use sections/pic/bk_name_en.png>
+Package pdftex.def Info: sections/pic/bk_name_en.png  used on input line 655.
+(pdftex.def)             Requested size: 193.47578pt x 27.191pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 31.54103pt, for example:
+(fancyhdr)                \setlength{\headheight}{31.54103pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-19.54103pt}.
+
+[18]
+
+File: sections/pic/bk_name_en.png Graphic file (type png)
+<use sections/pic/bk_name_en.png>
+Package pdftex.def Info: sections/pic/bk_name_en.png  used on input line 705.
+(pdftex.def)             Requested size: 193.47578pt x 27.191pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 31.54103pt, for example:
+(fancyhdr)                \setlength{\headheight}{31.54103pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-19.54103pt}.
+
+[19]
+
+File: sections/pic/bk_name_en.png Graphic file (type png)
+<use sections/pic/bk_name_en.png>
+Package pdftex.def Info: sections/pic/bk_name_en.png  used on input line 781.
+(pdftex.def)             Requested size: 193.47578pt x 27.191pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 31.54103pt, for example:
+(fancyhdr)                \setlength{\headheight}{31.54103pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-19.54103pt}.
+
+[20]
+
+File: sections/pic/bk_name_en.png Graphic file (type png)
+<use sections/pic/bk_name_en.png>
+Package pdftex.def Info: sections/pic/bk_name_en.png  used on input line 828.
+(pdftex.def)             Requested size: 193.47578pt x 27.191pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 31.54103pt, for example:
+(fancyhdr)                \setlength{\headheight}{31.54103pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-19.54103pt}.
+
+[21])
+
+File: sections/pic/bk_name_en.png Graphic file (type png)
+<use sections/pic/bk_name_en.png>
+Package pdftex.def Info: sections/pic/bk_name_en.png  used on input line 175.
+(pdftex.def)             Requested size: 193.47578pt x 27.191pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 31.54103pt, for example:
+(fancyhdr)                \setlength{\headheight}{31.54103pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-19.54103pt}.
+
+[22]
+\openout2 = `sections/Summary.aux'.
+
+ (sections/Summary.tex)
+
+File: sections/pic/bk_name_en.png Graphic file (type png)
+<use sections/pic/bk_name_en.png>
+Package pdftex.def Info: sections/pic/bk_name_en.png  used on input line 176.
+(pdftex.def)             Requested size: 193.47578pt x 27.191pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 31.54103pt, for example:
+(fancyhdr)                \setlength{\headheight}{31.54103pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-19.54103pt}.
+
+[23
+
+
+
+]
+\openout2 = `sections/reference.aux'.
+
+ (sections/reference.tex
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/it' in size <13> not available
+(Font)              size <12> substituted on input line 7.
 
 )
 
@@ -1442,11 +1699,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-19.54103pt}.
 
-[12
+[24
+
 
 
 ] (document.aux (sections/bia.aux) (sections/Introduction.aux)
-(sections/Theory.aux) (sections/Procedure.aux))
+(sections/Theory.aux) (sections/Procedure.aux) (sections/Summary.aux)
+(sections/reference.aux))
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -1460,16 +1719,16 @@ LaTeX Font Warning: Size substitutions with differences
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `document.out' has not changed.
-(rerunfilecheck)             Checksum: 47EFC70F6B4BCF84EA8D2926AB83B2C0;1572.
+(rerunfilecheck)             Checksum: AC8B8DEE451B05C0F8E3AE23A1092FA8;3586.
  ) 
 Here is how much of TeX's memory you used:
- 26196 strings out of 473530
- 475517 string characters out of 5714794
- 1030884 words of memory out of 5000000
- 48813 multiletter control sequences out of 15000+600000
- 576414 words of font info for 80 fonts, out of 8000000 for 9000
+ 27133 strings out of 473530
+ 489938 string characters out of 5714794
+ 1171173 words of memory out of 5000000
+ 49328 multiletter control sequences out of 15000+600000
+ 576761 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,16n,101p,1190b,2127s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,16n,101p,1190b,2263s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmbx12.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmex10.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/p
@@ -1480,16 +1739,16 @@ rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/nguye/AppData/Loc
 al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/nguye/AppD
 ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/n
 guye/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:
-/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt1
-0.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
-/cm/cmtt12.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/
-vnr/vnbx12.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/
-vnr/vnbx8.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/v
-nr/vnr12.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vn
-r/vnr17.pfb>
-Output written on document.pdf (12 pages, 597283 bytes).
+/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti1
+2.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
+/cm/cmtt10.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmtt12.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/typ
+e1/vntex/vnr/vnbx12.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/typ
+e1/vntex/vnr/vnbx8.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type
+1/vntex/vnr/vnr17.pfb>
+Output written on document.pdf (26 pages, 723421 bytes).
 PDF statistics:
- 330 PDF objects out of 1000 (max. 8388607)
- 126 named destinations out of 1000 (max. 500000)
- 131 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 915 PDF objects out of 1000 (max. 8388607)
+ 538 named destinations out of 1000 (max. 500000)
+ 211 words of extra memory for PDF output out of 10000 (max. 10000000)
 

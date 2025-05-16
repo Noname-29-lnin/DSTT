@@ -30,11 +30,11 @@
 \usepackage[]{fancyhdr}
 \usepackage{titlesec}   % Để tạo sectioning tùy chỉnh
 %\usepackage{chngcntr}   % Để reset counter
-%\usepackage{tocloft}
+\usepackage{tocloft}
 \fancyhf{}
 \renewcommand{\thesection}{\Roman{section}. }
 \renewcommand{\thesubsection}{\arabic{subsection}.}
-%\renewcommand{\thesubsubsection}{\arabic{section}.\arabic{subsection}.\arabic{subsubsection}.}
+\renewcommand{\thesubsubsection}{\arabic{subsection}.\arabic{subsubsection}.}
 
 %\usepackage[backend=biber, style=ieee]{biblatex}
 %\usepackage[style=ieee]{biblatex}
@@ -65,7 +65,7 @@
 %\makeatother
 
 % Cấu hình mục lục
-%\renewcommand{\cftsecnumwidth}{6em} % Độ rộng cho "Chương X."
+\renewcommand{\cftsecnumwidth}{2em} % Độ rộng cho "Chương X."
 %\renewcommand{\cftsubsecnumwidth}{4em} % Cho "X.Y."
 %\setlength{\cftsubsecindent}{2em} % Thụt lề subsection
 
@@ -79,6 +79,7 @@
 	%%%	\textit{EE3117/EE4451 – Digital IC Design Laboratory}
 	%	\texttt{SVTH: Nguyễn Đại Đồng - 2210780}
 	%}
+\setcounter{page}{-1}
 \fancyfoot[R]{Page|\thepage}
 \renewcommand{\headrulewidth}{0.4pt}
 \renewcommand{\footrulewidth}{0.4pt}
@@ -130,7 +131,7 @@
 % Định nghĩa ngôn ngữ cho MATLAB
 \lstdefinelanguage{MATLAB}{
 	keywords={break, case, catch, classdef, continue, else, elseif, end, for, function, global, if, otherwise, parfor, persistent, return, spmd, switch, try, while},
-	morekeywords=[2]{abs, acos, asin, atan, ceil, cos, exp, false, floor, log, log10, max, min, mod, pi, sin, sqrt, tan, true},
+	morekeywords=[2]{abs, acos, asin, atan, ceil, cos, exp, false, floor, log, log10, max, min, mod, pi, sin, sqrt, tan, true, sum, mean},
 	sensitive=true,
 	comment=[l]{\%},
 	morecomment=[s]{\%\{}{\%\}},
@@ -172,6 +173,8 @@
 	\include{sections/Introduction.tex}
 	\include{sections/Theory.tex}
 	\include{sections/Procedure.tex}
-	\bibliographystyle{ieeetr} % IEEE style
-	\bibliography{ref} % Without .bib extension
+	\include{sections/Summary.tex}
+	\include{sections/reference.tex}
+%	\bibliographystyle{ieeetr} % IEEE style
+%	\bibliography{ref} % Without .bib extension
 \end{document}
