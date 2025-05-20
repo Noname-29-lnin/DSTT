@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.10)  16 MAY 2025 08:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.10)  20 MAY 2025 20:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1719,12 +1719,12 @@ LaTeX Font Warning: Size substitutions with differences
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `document.out' has not changed.
-(rerunfilecheck)             Checksum: AC8B8DEE451B05C0F8E3AE23A1092FA8;3586.
+(rerunfilecheck)             Checksum: A7B72757FEC65F57C2B608A48C5F00E4;3591.
  ) 
 Here is how much of TeX's memory you used:
  27133 strings out of 473530
  489938 string characters out of 5714794
- 1171173 words of memory out of 5000000
+ 1171353 words of memory out of 5000000
  49328 multiletter control sequences out of 15000+600000
  576761 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1746,7 +1746,7 @@ guye/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:
 e1/vntex/vnr/vnbx12.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/typ
 e1/vntex/vnr/vnbx8.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type
 1/vntex/vnr/vnr17.pfb>
-Output written on document.pdf (26 pages, 723421 bytes).
+Output written on document.pdf (26 pages, 723443 bytes).
 PDF statistics:
  915 PDF objects out of 1000 (max. 8388607)
  538 named destinations out of 1000 (max. 500000)

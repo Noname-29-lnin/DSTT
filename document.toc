@@ -18,7 +18,7 @@
 \contentsline {subsection}{\numberline {8.}Diplay the recommendations}{14}{subsection.3.8}%
 \contentsline {subsection}{\numberline {9.}Create a personal rating vector called Myratings}{16}{subsection.3.9}%
 \contentsline {subsubsection}{\numberline {9.1.}Rating random movies form 1 to 5}{16}{subsubsection.3.9.1}%
-\contentsline {subsubsection}{\numberline {9.2.}ating Movies by using Myratings}{17}{subsubsection.3.9.2}%
+\contentsline {subsubsection}{\numberline {9.2.}Rating Movies by using Myratings}{17}{subsubsection.3.9.2}%
 \contentsline {subsubsection}{\numberline {9.3.}Generate Recommendations}{19}{subsubsection.3.9.3}%
 \contentsline {subsubsection}{\numberline {9.4.}Display the result}{20}{subsubsection.3.9.4}%
 \contentsline {section}{\numberline {IV. }SUMMARY AND CONCLUSION}{23}{section.4}%
